@@ -19,16 +19,16 @@ namespace V48ADOnetAssignment
         }
         internal static int MainMenu()
         {
-            Console.WriteLine("Select search option\n" +
+            Console.WriteLine("Select search option\n\n" +
                 "1- Search By Actor's Name\n" +
-                "2- Close Program");
+                "2- Close Program\n");
             Console.Write("Your input: ");
             int input = Utility.GetIntInput();
             return input;
         }
         internal static string GetActorFirstName()
         {
-            Console.Write("Please Enter Actors First Name : ");
+            Console.Write("\nPlease Enter Actors First Name : ");
             string input = Utility.GetStringInput();
             return input;
         }
